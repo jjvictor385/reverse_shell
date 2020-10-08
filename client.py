@@ -2,8 +2,8 @@ import socket
 import struct
 import os
 from subprocess import Popen, PIPE
-host = '0.tcp.ngrok.io'
-port = 10766
+host = '192.168.1.103'
+port = 1000
 class Packet(object):
 	def __init__(self, sock):
 		self.sock = sock
